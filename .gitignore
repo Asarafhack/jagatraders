@@ -1,0 +1,41 @@
+# Environment files
+.env
+.env.*
+backend/.env
+backend/.env.*
+node_modules/
+backend/node_modules/
+
+.env
+.env.*
+backend/.env
+backend/.env.*
+# Secrets
+*.pem
+*.key
+*.crt
+
+# Supabase
+.supabase/
+
+# Local database
+*.db
+*.sqlite
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.temp/
+
+# Uploads
+uploads/
+
+# Build files
+build/
+dist/
+
+# OS files
+Thumbs.db
+Desktop.ini
