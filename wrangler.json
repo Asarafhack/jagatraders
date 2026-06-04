@@ -1,0 +1,14 @@
+{
+  "name": "jagatrader",
+  "main": "dist/server/server.js",
+  "compatibility_date": "2026-06-04",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "VITE_SUPABASE_URL": "https://yvrkhcssttlrrwcjeajz.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltaGtzZ2hnbm9pcmRtdG5ubmh6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk4MDk5NjQsImV4cCI6MjA5NTM4NTk2NH0.ltjDFXcOVSFetGG0Gq5xHZJjLEoLluiewQWbCZmCueA",
+    "VITE_RAZORPAY_KEY_ID": "rzp_live_SwQ0fCScmzEuX3"
+  }
+}
