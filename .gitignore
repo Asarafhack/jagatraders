@@ -18,7 +18,15 @@ backend/.env.*
 *.crt
 # Lovable
 .lovable/
+.lovable/
+.tanstack/
+.wrangler/
 
+dist/
+.output/
+
+.env
+.env.*
 # TanStack temp
 .tanstack/
 
