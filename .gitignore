@@ -16,7 +16,22 @@ backend/.env.*
 *.pem
 *.key
 *.crt
+# Lovable
+.lovable/
 
+# TanStack temp
+.tanstack/
+
+# Wrangler
+.wrangler/
+
+# Build
+dist/
+.output/
+
+# Environment
+.env
+.env.*
 # Supabase
 .supabase/
 
