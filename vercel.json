@@ -1,3 +1,13 @@
 {
-  "framework": "vite"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/_vercel/insights(.*)",
+      "dest": "/_vercel/insights$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": ".output/server/index.mjs"
+    }
+  ]
 }
